@@ -7,7 +7,7 @@
     "build": "sapper build",
     "export": "sapper export",
     "deploy": "now deploy",
-    "now-build": "sapper nuild",
+    "now-build": "sapper build",
     "now-dev": "sapper dev -p $PORT",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
