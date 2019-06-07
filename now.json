@@ -3,7 +3,7 @@
     "builds": [
       {
         "src": "package.json",
-        "use": "@now/static-build"
+        "use": "@now/node-server"
       }
     ],
     "routes": [{ "src": "/(.*)", "dest": "__sapper__/build/index.js" }]

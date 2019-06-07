@@ -7,7 +7,7 @@
     "build": "sapper build",
     "export": "sapper export",
     "deploy": "now deploy",
-    "now-build": "sapper build",
+    "now-build": "sapper build && node __sapper__/build",
     "now-dev": "sapper dev -p $PORT",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
